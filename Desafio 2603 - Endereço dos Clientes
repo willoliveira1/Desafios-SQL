@@ -1,0 +1,5 @@
+SELECT name, street
+    FROM customers
+    WHERE city = 'Porto Alegre';
+
+https://www.beecrowd.com.br/judge/pt/runs/code/35732034
