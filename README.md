@@ -1,6 +1,6 @@
 # Desafios-SQL
 
-Desafios de SQL feitos na plataforma Bee Crowd. (../Desafio 2616 - Nenhuma Locação)
+Desafios de SQL feitos na plataforma Bee Crowd. (/"Desafio 2616 - Nenhuma Locação")
 
 Desafio 2603 - Endereço dos Clientes 
 
