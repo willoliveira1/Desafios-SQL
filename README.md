@@ -1,6 +1,4 @@
-# Desafios-SQL
-
-## Desafios de SQL feitos na plataforma Bee Crowd. 
+# Desafios de SQL feitos na plataforma Bee Crowd. 
 
 * Desafio 2603 - Endereço dos Clientes - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio%202603%20-%20Endereço%20dos%20Clientes)
 
