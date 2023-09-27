@@ -1,0 +1,10 @@
+SELECT name, customers_number
+FROM lawyers
+	WHERE customers_number in (SELECT MAX(customers_number) FROM lawyers)
+	UNION ALL
+		SELECT name, customers_number
+		FROM lawyers
+		WHERE customers_number in (SELECT MIN(customers_number) FROM lawyers)
+	UNION ALL
+		SELECT DISTINCT 'Average', (SELECT FLOOR(AVG(customers_number)) FROM lawyers)
+		FROM lawyers;
