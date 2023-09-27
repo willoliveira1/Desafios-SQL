@@ -6,4 +6,6 @@
 
 * Desafio 2616 - Nenhuma Locação - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio%20%202616%20-%20Nenhuma%20Locação)
 
+* Desafio 2737 - Advogados - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio%202737%20-%20Advogados)
+
 * Desafio 2738 - Concurso - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio%202738%20-%20Concurso)
