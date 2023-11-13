@@ -1,0 +1,17 @@
+WITH profit_sums AS (
+    SELECT o.id, o.client_id, SUM(o.profit) OVER (PARTITION BY o.client_id ORDER BY month) AS client_profit
+    FROM operations AS o
+    JOIN clients AS c
+        ON o.client_id = c.id
+)
+
+SELECT DISTINCT ON (c.name)
+    c.name, c.investment, o.month AS month_of_payback, p.client_profit - c.investment AS return
+    FROM operations AS o
+    JOIN clients AS c
+        ON c.id = o.client_id
+    JOIN profit_sums AS p
+       ON p.id = o.id
+    WHERE p.client_profit - c.investment >= 0;
+
+-- https://www.beecrowd.com.br/judge/pt/problems/view/2998
