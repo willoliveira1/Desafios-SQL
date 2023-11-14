@@ -1,0 +1,29 @@
+WITH descontos AS (
+    SELECT e.matr, SUM(des.valor) AS valor
+    FROM empregado AS e,
+         desconto AS des,
+         emp_desc
+    WHERE des.cod_desc = emp_desc.cod_desc
+    AND e.matr = emp_desc.matr
+    GROUP BY e.matr
+),
+vencimentos AS (
+    SELECT emp_venc.matr, SUM(venc.valor) as valor
+    FROM emp_venc,
+         vencimento AS venc
+    WHERE emp_venc.cod_venc = venc.cod_venc
+    GROUP BY emp_venc.matr
+)
+SELECT
+    dept.nome AS departamento, div.nome AS divisao, ROUND(AVG(COALESCE(v.valor, 0) - COALESCE(d.valor, 0)), 2) as media, MAX(COALESCE(v.valor, 0) - COALESCE(d.valor, 0)) as maior
+    FROM empregado AS e
+    LEFT JOIN departamento AS dept
+        ON dept.cod_dep = e.lotacao
+    LEFT JOIN divisao AS div
+        ON div.cod_divisao = e.lotacao_div
+    LEFT JOIN descontos AS d
+        ON d.matr = e.matr
+    LEFT JOIN vencimentos AS v
+        ON v.matr = e.matr
+    GROUP BY div.nome, dept.nome
+    ORDER BY media desc;
