@@ -10,4 +10,6 @@
 
 * Desafio 2738 - Concurso - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio%202738%20-%20Concurso)
 
+* Desafio 2989 - Departamentos e Divisões - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio%202989%20-%20Departamentos%20e%20Divisões)
+
 * Desafio 2998 - The Payback [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio%202998%20-%20The%20Payback)
