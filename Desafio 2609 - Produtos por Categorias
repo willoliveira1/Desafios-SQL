@@ -1,6 +1,0 @@
-SELECT c.name, SUM(p.amount)
-    FROM categories AS c, products AS p
-    WHERE c.id = p.id_categories
-    GROUP BY c.name;
-
--- https://www.beecrowd.com.br/judge/pt/runs/code/35734085
