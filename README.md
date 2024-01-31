@@ -1,30 +1,30 @@
 # Desafios de SQL feitos na plataforma Bee Crowd.
 
-* Desafio 2602 - Select Básico
-* Desafio 2603 - Endereço dos Clientes
-* Desafio 2604 - Menores que 10 ou Maiores que 100
-* Desafio 2605 - Representantes Executivos
-* Desafio 2606 - Categorias
-* Desafio 2607 - Cidades em Ordem Alfabética
-* Desafio 2608 - Maior e Menor Preço
-* Desafio 2609 - Produtos por Categorias
-* Desafio 2610 - Valor Médio dos Produtos
-* Desafio 2611 - Filmes de Ação
-* Desafio 2613 - Filmes em Promoção
-* Desafio 2614 - Locações de Setembro
-* Desafio 2615 - Expandindo o Negocio
-* Desafio 2616 - Nenhuma Locação
-* Desafio 2617 - Fornecedor Ajax SA
-* Desafio 2618 - Produtos Importados
-* Desafio 2619 - Super Luxo
-* Desafio 2620 - Pedidos no Primeiro Semestre
-* Desafio 2621 - Quantidades Entre 10 e 20
-* Desafio 2622 - Pessoas Jurídicas
-* Desafio 2623 - Categorias com Vários Produtos
-* Desafio 2624 - Quantidades de Cidades por Clientes
-* Desafio 2625 - Máscara de CPF
-* Desafio 2737 - Advogados
-* Desafio 2738 - Concurso
+* Desafio 2602 - Select Básico - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2602.sql)
+* Desafio 2603 - Endereço dos Clientes - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2603.sql)
+* Desafio 2604 - Menores que 10 ou Maiores que 100 - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2604.sql)
+* Desafio 2605 - Representantes Executivos - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2605.sql)
+* Desafio 2606 - Categorias - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2606.sql)
+* Desafio 2607 - Cidades em Ordem Alfabética - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2607.sql)
+* Desafio 2608 - Maior e Menor Preço - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2608.sql)
+* Desafio 2609 - Produtos por Categorias - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2609.sql)
+* Desafio 2610 - Valor Médio dos Produtos - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2610.sql)
+* Desafio 2611 - Filmes de Ação - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2611.sql)
+* Desafio 2613 - Filmes em Promoção - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2613.sql)
+* Desafio 2614 - Locações de Setembro - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2614.sql)
+* Desafio 2615 - Expandindo o Negocio - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2615.sql)
+* Desafio 2616 - Nenhuma Locação - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2616.sql)
+* Desafio 2617 - Fornecedor Ajax SA - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2617.sql)
+* Desafio 2618 - Produtos Importados - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2618.sql)
+* Desafio 2619 - Super Luxo - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2619.sql)
+* Desafio 2620 - Pedidos no Primeiro Semestre - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2620.sql)
+* Desafio 2621 - Quantidades Entre 10 e 20 - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2621.sql)
+* Desafio 2622 - Pessoas Jurídicas - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2622.sql)
+* Desafio 2623 - Categorias com Vários Produtos - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2623.sql)
+* Desafio 2624 - Quantidades de Cidades por Clientes - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2624.sql)
+* Desafio 2625 - Máscara de CPF - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2625.sql)
+* Desafio 2737 - Advogados - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2637.sql)
+* Desafio 2738 - Concurso - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio-2638.sql)
 
 
 * Desafio 2989 - Departamentos e Divisões - [link](https://github.com/willoliveira1/Desafios-SQL/blob/main/Desafio%202989%20-%20Departamentos%20e%20Divisões)
