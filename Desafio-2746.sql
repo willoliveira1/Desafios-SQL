@@ -1,10 +1,8 @@
 -- Link Desafio:  https://www.beecrowd.com.br/judge/pt/problems/view/2746
--- Link Resposta: https://www.beecrowd.com.br/judge/pt/runs/code/37407709
+-- Link Resposta: https://www.beecrowd.com.br/judge/pt/runs/code/37415393
 
 -- Resposta
-SELECT name, TRUNC(salary * 0.1, 2) AS tax
-FROM people
-WHERE salary > 3000;
+SELECT REPLACE(name, 'H1', 'X') AS name FROM virus;
 
 -- Dados Iniciais
 CREATE TABLE virus (
