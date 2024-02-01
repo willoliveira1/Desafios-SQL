@@ -19,13 +19,11 @@ CREATE TABLE doctors (
     id integer PRIMARY KEY,
     name varchar(50)
 );
-GRANT SELECT ON doctors TO sql_user;
 CREATE TABLE work_shifts (
     id integer PRIMARY KEY,
     name varchar(50),
     bonus numeric
 );
-GRANT SELECT ON work_shifts TO sql_user;
 CREATE TABLE attendances (
     id integer PRIMARY KEY,
     id_doctor integer,
@@ -34,7 +32,6 @@ CREATE TABLE attendances (
     FOREIGN KEY (id_doctor) REFERENCES  doctors(id),
     FOREIGN KEY (id_work_shift) REFERENCES  work_shifts(id)
 );
-GRANT SELECT ON attendances TO sql_user;
 insert into doctors (id,name) values
     (1,'Arlino'),
     (2,'Tiago'),
